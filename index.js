@@ -21,11 +21,11 @@ function makeInt(n) {
     return a / b
   }
   
-  function increment(a, b){
-    return a >> b
+  function inc(n){
+    return ++n;
   }
   
-  function decrement(a, b){
-    return a << b
+  function dec(n){
+    return --n
   }
   
